@@ -56,9 +56,9 @@ this is to:
    and `unfriend`.
 0. If we are friends, set a second class on your div:
    `friended`. Otherwise, set `unfriended` as the class.
-0. Write a CSS rule so that `.friend_buttons.friended friend` is
+0. Write a CSS rule so that `.friend_buttons.friended .friend` is
    `display: none`. Do likewise for `.friend_buttons.unfriended
-   unfriend`.
+   .unfriend`.
 0. Lastly, when either button is pressed, swap the class of of the div
    (see `$.toggleClass`).
 
